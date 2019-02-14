@@ -2,6 +2,8 @@ version: 2
 jobs:
   build:
     working_directory: ~/.circleci
+    docker:
+     - image: circleci/node:10-browsers
     steps:
       - checkout  # checkout source code to working directory
       - run:
