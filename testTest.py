@@ -24,5 +24,6 @@ class DefaultStringSizeTestCase(unittest.TestCase):
 #unittest.main()
 testCase = DefaultStringSizeTestCase()
 testCase.runTest("12345123451")
+print "ran test"
 #testCase.test_isupper()
 
